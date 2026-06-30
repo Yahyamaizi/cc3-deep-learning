@@ -2,7 +2,7 @@ import streamlit as st
 import torch
 from torchvision import transforms
 from transformers import ViTForImageClassification
-from ultralytics import YOLO
+
 from PIL import Image
 import json, time, os
 import matplotlib.pyplot as plt
